@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hacer ping al backend
-        run: curl -s https://prestamos-back.onrender.com
+        run: curl -f -s https://prestamos-back.onrender.com/ping
